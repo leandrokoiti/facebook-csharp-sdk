@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook-NetCore31", "Facebook\Facebook-NetCore31.csproj", "{79963FE8-E295-4F49-845B-D9672A02D1D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{81547BAF-9233-4259-A4C2-E6A1E41554CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.Tests-NetCore31", "Facebook.Tests\Facebook.Tests-NetCore31.csproj", "{E8A4760A-C5E6-4667-94F4-625E667AD65D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79963FE8-E295-4F49-845B-D9672A02D1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79963FE8-E295-4F49-845B-D9672A02D1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79963FE8-E295-4F49-845B-D9672A02D1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79963FE8-E295-4F49-845B-D9672A02D1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A4760A-C5E6-4667-94F4-625E667AD65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A4760A-C5E6-4667-94F4-625E667AD65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A4760A-C5E6-4667-94F4-625E667AD65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A4760A-C5E6-4667-94F4-625E667AD65D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8A4760A-C5E6-4667-94F4-625E667AD65D} = {81547BAF-9233-4259-A4C2-E6A1E41554CF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B474183-90F8-4BB6-9DB5-B75138456C9F}
+	EndGlobalSection
+EndGlobal

@@ -27,7 +27,7 @@ namespace Facebook.Tests.ExceptionFactory.GetRestException
     public class GivenNonNullInputNotOfTypeIDictionaryStringObjectThen
     {
         [Theory]
-        [PropertyData("TestData")]
+        [MemberData(nameof(TestData))]
         public void ResultIsNull(object input)
         {
             var result = ExceptionFactory.GetRestException(input);

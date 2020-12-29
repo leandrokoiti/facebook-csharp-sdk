@@ -26,7 +26,7 @@ namespace Facebook.Tests.FacebookUtils.ParseUrlQueryString
 
     public class GivenAValidQuerystringThen
     {
-        [PropertyData("ValidQueryStrings")]
+        [MemberData(nameof(ValidQueryStrings))]
         [Theory]
         public void TheCountOfResultShouldBeNumberOfQuerystringKeys(string queryString, int total)
         {

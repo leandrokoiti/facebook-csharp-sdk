@@ -80,7 +80,7 @@ namespace Facebook
         /// <remarks>
         /// The values of parameters should not be url encoded.
         /// </remarks>
-        internal FacebookOAuthResult(IDictionary<string, object> parameters)
+        public FacebookOAuthResult(IDictionary<string, object> parameters)
         {
             if (parameters == null)
                 throw new ArgumentNullException("parameters");

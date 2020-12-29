@@ -46,7 +46,7 @@ namespace Facebook
         private const string MultiPartNewLine = "\r\n";
         private const string ETagKey = "_etag_";
 
-        internal static readonly string[] LegacyRestApiReadOnlyCalls = new[] {
+        public static readonly string[] LegacyRestApiReadOnlyCalls = new[] {
             "admin.getallocation",
             "admin.getappproperties",
             "admin.getbannedusers",
@@ -128,7 +128,7 @@ namespace Facebook
         private static Func<Uri, HttpWebRequestWrapper> _defaultHttpWebRequestFactory;
 
         /// <remarks>For unit testing</remarks>
-        internal Func<string> Boundary { get; set; }
+        public Func<string> Boundary { get; set; }
 
         /// <summary>
         /// Gets or sets the access token.
@@ -1067,7 +1067,7 @@ namespace Facebook
             return path;
         }
 
-        internal static string ParseUrlQueryString(string path, IDictionary<string, object> parameters, bool forceParseAllUrls)
+        public static string ParseUrlQueryString(string path, IDictionary<string, object> parameters, bool forceParseAllUrls)
         {
             Uri uri;
             bool isLegacyRestApi;
